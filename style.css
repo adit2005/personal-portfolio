@@ -1,0 +1,149 @@
+/*  background color  */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/*  background image */
+.bgimage {
+    height:100vh;
+    background: url('background picture.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+.imageAboutPage {
+    border-radius: 20%; /* Creates a circular shape */
+  }
+  .navbar-text#name {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding-left: 20px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+}
+.nav-link{
+color: black;
+border-bottom: #808080;
+}
+.navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:black;
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover:before {
+    width: 100%;
+  }
+
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    background-color: #1a237e; /* set the background color to dark blue */
+    color: #fff; /* set the text color to white */
+  }
+  
+  .contactContent .col-lg-6 {
+    display: flex;
+    align-items: center;
+  }
+  
+/* Required CSS for Bootstrap 5 */
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+/* Custom CSS */
+
+.navbar {
+  background-color: #333;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  margin-right: 50px;
+}
+
+/* Optional: Add a background color to the active nav link */
+
